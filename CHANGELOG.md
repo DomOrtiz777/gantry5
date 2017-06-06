@@ -1,3 +1,36 @@
+# 5.4.13
+## 06/06/2017
+
+1. [Common](#common)
+    1. [](#new)
+        - Updated Lightcase to v2.4.0
+        - If debug mode is enabled, add HTML comments to recognize particles and positions (#639)
+    2. [](#improved)
+        - Menu particle: Add aria-label for icon-only menu items for better accessibility support (#1888)
+    3. [](#bugfix)
+        - Fixed bug with enabled field when editing disabled particle in the layout (#1571)
+        - Helium: Add missing `System Messages` particle to Default and Offline layouts (#1962)
+2. [Joomla](#joomla)
+    1. [](#new)
+        - Use the new package uninstall protection feature in Joomla 3.7
+        - Embedded `System - Gantry 5` settings into the component settings (#2010)
+    3. [](#bugfix)
+        - Fixed issue with Regular Labs Cache Cleaner (#1833)
+        - Fixed issue with Hydrogen textarea (#1973)
+        - Fixed some caching issues when changing between Production and Development modes
+        - Fixed untranslated month names in particles (#1322)
+        - Fixed `|number_format` twig filter to use the current locale
+3. [WordPress](#wordpress)
+    1. [](#new)
+        - Updated Timber to v1.3.1
+    3. [](#bugfix)
+        - Fixed checkboxes next to the setting enablers in Content tab getting unchecked after refresh (#1986)
+        - Fixed `Missing argument 2 for modify_gantry5_locale()`
+        - Fixed external scripts and CSS with query parameters being broken (#1975)
+4. [Grav](#grav)
+    3. [](#bugfix)
+        - Fixed CSS/JS pipelines, though you need to set `js_minify: false` to keep the menu working (#2001)
+
 # 5.4.12
 ## 04/26/2017
 
@@ -9,7 +42,7 @@
         - Fixed a bug in `Layout::updateInheritance()` when inheritance is missing
 2. [Joomla](#joomla)
     1. [](#new)
-        - Added official support for Joomla 3.7 
+        - Added official support for Joomla 3.7
 4. [Grav](#grav)
     3. [](#bugfix)
         - Fixed broken styles / scripts if CSS / JS Pipeline has been enabled (#1941)

@@ -1,3 +1,26 @@
+# 5.4.14
+## 07/06/2017
+
+1. [Common](#common)
+    2. [](#improved)
+        - Accessibility: Menu / Offcanvas: Offcanvas and hamburger toggle menu are now ARIA compatible (#1891)
+        - Filepicker Field: File listing mode (thumbnails/list) is now remembered and restored (#1697)
+        - Filepicker Field: UI updates, container is now more spacious and in list view the thumbnails are visible
+        - Date and Joomla Articles/WordPress Posts/Grav Content particles: Added new date format: `Month Day, Year` (#2042)
+    3. [](#bugfix)
+        - Menu: Disable Dropdowns still Shows Indicator (#2031)
+        - Menu: Fixed frontend menu 'Extended' option, resetting heights of wrapping containers not necessarily related to the menu itself (#2025)
+        - Menu / Offcanvas: Fixed issue preventing the offcanvas toggle to show when Menu set with only icons (#1939)
+        - Menu: Fixed issue with touch devices where ending the scroll gesture on the offcanvas menu would trigger the expansion of a parent menu item (#1620)
+        - Fixed Tag Attributes 'enter' key causing the value to get lost while triggering the Apply (#1860)
+        - Filepicker: Fixed issue with upper case extensions not getting recognized and failing to upload (#1852)
+3. [WordPress](#wordpress)
+    1. [](#new)
+        - Updated Timber to v1.3.3
+4. [Grav](#grav)
+    3. [](#bugfix)
+        - Fixed Particles Picker not adapting to height and scroll position in Layout Manager (#1942)
+
 # 5.4.13
 ## 06/06/2017
 
